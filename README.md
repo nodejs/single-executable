@@ -9,3 +9,8 @@ Table of Contents
 -----------------
 
 - [Existing SEA Solutions](./docs/existing-solutions.md)
+
+Blog
+----
+
+- (2022/08/05) [An Overview of the Current State](./blog/2022-08-05-an-overview-of-the-current-state.md)
