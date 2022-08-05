@@ -11,4 +11,4 @@ packaging Node.js applications as standalone executables.
 | nexe       | -            | https://github.com/nexe/nexe            | N/A              |
 
 Did we miss any or got any details wrong? [Help us out by sending a
-PR!](https://github.com/nodejs/single-executable/edit/master/docs/existing-solutions.md)
+PR!](https://github.com/nodejs/single-executable/edit/main/docs/existing-solutions.md)
