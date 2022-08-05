@@ -8,6 +8,7 @@ packaging Node.js applications as standalone executables.
 |------------|--------------|-----------------------------------------|------------------|
 | pkg        | Vercel       | https://github.com/vercel/pkg           | @jesec           |
 | boxednode  | MongoDB      | https://github.com/mongodb-js/boxednode | @addaleax        |
+| ZipFS      | Yarn         | https://github.com/yarnpkg/berry        | @arcanis         |
 | nexe       | -            | https://github.com/nexe/nexe            | N/A              |
 
 Virtual File System Implementations
