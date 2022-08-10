@@ -26,7 +26,7 @@ Miscellaneous Related Tooling
 
 | Name           | Notes                                      |  
 |----------------|--------------------------------------------|
-| [`qjsc`][qjsc] | A JavaScript to C compiler part of QuickJS |
+| [`qjsc`][qjsc] | Compiles Javascript sources to executables with no external dependency. |
 
 [qjsc]: https://bellard.org/quickjs/quickjs.html#qjsc-compiler
 
