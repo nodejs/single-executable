@@ -13,13 +13,15 @@ packaging Node.js applications as standalone executables.
 Virtual File System Implementations
 -----------------------------------
 
-| Name | Project  | Reference                                                                                          | Point of Contact |
-|------|----------|----------------------------------------------------------------------------------------------------|------------------|
-| ASAR | Electron | <ul><li>[ASAR format]</li><li>[monkey patching of `fs` in Electron to read from an ASAR]</li></ul> | [`@zcbenz`]      |
+| Name  | Project  | Reference                                                                                          | Point of Contact |
+|-------|----------|----------------------------------------------------------------------------------------------------|------------------|
+| ASAR  | Electron | <ul><li>[ASAR format]</li><li>[monkey patching of `fs` in Electron to read from an ASAR]</li></ul> | [`@zcbenz`]      |
+| ZipFS | Yarn     | [ZipFS]                                                                                            | @arcanis         |
 
 [ASAR format]: https://github.com/electron/asar
 [`@zcbenz`]: https://github.com/zcbenz
 [monkey patching of `fs` in Electron to read from an ASAR]: https://github.com/electron/electron/blob/06a00b74e817a61f20e2734d50d8eb7bc9b099f6/lib/asar/fs-wrapper.ts
+[ZipFS]: https://github.com/yarnpkg/berry/blob/master/packages/yarnpkg-fslib/sources/ZipFS.ts
 
 Miscellaneous Related Tooling
 -----------------------------
