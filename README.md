@@ -9,6 +9,7 @@ Table of Contents
 -----------------
 
 - [Existing SEA Solutions](./docs/existing-solutions.md)
+- [Production Node.js CLIs](./docs/production-nodejs-clis.md)
 
 Blog
 ----
