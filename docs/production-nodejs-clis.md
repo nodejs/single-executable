@@ -3,8 +3,8 @@ Production Node.js CLIs
 
 This document aims to list every known production-ready Node.js CLI that would
 be a good fit for using the SEA solutions discussed in this repository. We can
-use this list to test our ideas against and make sure we are heading in the
-right direction.
+use this list to test our ideas against (potentially using [citgm][]) and make
+sure we are heading in the right direction.
 
 | Name                                   | Organization | Point of Contact        |
 |----------------------------------------|--------------|-------------------------|
@@ -15,3 +15,5 @@ right direction.
 
 Did we miss any or got any details wrong? [Help us out by sending a
 PR!](https://github.com/nodejs/single-executable/edit/main/docs/production-nodejs-clis.md)
+
+[citgm]: https://github.com/nodejs/citgm
