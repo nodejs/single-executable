@@ -19,7 +19,7 @@ Electron's [ASAR][] does not support symlinks, including [dugite][] as a
 dependency in an Electron app would expand every symlink into individual files,
 thus significantly increase the package size which is not nice.
 
-## Preserve only the executable bit of the file permissions
+## Preserve the executable bit of the file permissions
 
 It is important to preserve the executable bit of the file permissions, so that
 it is possible for the single-executable to be able to execute only executable
