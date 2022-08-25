@@ -26,7 +26,7 @@ it is possible for the single-executable to be able to execute only executable
 files. Other than that, all the bundled files would be readable and none will be
 writable.
 
-## Data compression
+## Optional data compression
 
 As an application grows, bundling all the source code, dependencies and static
 assets into a single file without compression would quickly reach the maximum
