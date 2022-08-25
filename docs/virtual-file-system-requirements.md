@@ -76,6 +76,14 @@ be available on all the [platforms supported by Node.js][].
 Should not limit the size or the character contents of the file paths to stay as
 close as possible to what a real file system provides.
 
+## Case Sensitive
+
+From Yarn's experience with zip, forcing case sensitivity within the archives
+didn't break anything, improved consistency. By contrast, making the code case
+insensitive would have increased the complexity, worsened the runtime
+performance, increased the attack surface, for a use case that virtually no-one
+cares about. Hence, the paths in the VFS will be case sensitive.
+
 # Not supported
 
 ## No need for supporting write operations
@@ -86,15 +94,6 @@ invalidate the signature and crash the application if run again. Hence, no write
 operation needs to be supported.
 
 # Optionally support
-
-## Case Sensitivity and Case Preservation
-
-It should be the same as what users of the OS the executable has been packaged
-for expects. This list is based on [case sensitivity in files systems][].
-
-* Unix - case-sensitive
-* MacOS - case-insensitive and case-preserving
-* Windows - case-insensitive and case-preserving
 
 ## Increase locality of related files
 
@@ -117,4 +116,3 @@ have been a much harder sell if Yarn had used a custom-made format).
 [Git executables]: https://github.com/desktop/dugite-native/releases/
 [dugite]: https://www.npmjs.com/package/dugite
 [platforms supported by Node.js]: https://github.com/nodejs/node/blob/main/BUILDING.md#supported-platforms
-[case sensitivity in file systems]: https://en.wikipedia.org/wiki/Case_sensitivity#In_filesystems
