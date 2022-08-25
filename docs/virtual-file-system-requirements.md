@@ -48,7 +48,9 @@ paths that cannot be used by existing files.
 
 Pkg uses [`/snapshot`](https://github.com/vercel/pkg#snapshot-filesystem) as the
 prefix for all the embedded files. This is confusing if `/snapshot` is an
-existing directory on the file system.
+existing directory on the file system. Docker workflows routinely copy files to,
+and run things at, the root of the filesystem, so following that approach too
+would run into the same problem.
 
 Boxednode allows users to enter a [namespace](https://github.com/mongodb-js/boxednode/blob/6326e3277469e8cfe593616a0ed152600a5f9045/README.md?plain=1#L69-L72)
 and uses it like so:
