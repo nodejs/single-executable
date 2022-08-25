@@ -100,6 +100,19 @@ for expects. This list is based on [case sensitivity in files systems][].
 
 For performance reasons.
 
+## Format implementation in multiple languages
+
+We want this format to already have implementation in *multiple* languages (not
+just JS, since not all tools used in the JS ecosystem are written in JS), all
+ideally production-grade and well-maintained.
+
+## Consensus with third-party tools on building native integrations
+
+We want this format to be consensual enough that third-party tools (VSCode,
+emacs, ...) won't object to build native integrations with it (for instance,
+Esbuild recently added zip support to integrate w/ Yarn's zip installs; it would
+have been a much harder sell if Yarn had used a custom-made format).
+
 [ASAR]: https://github.com/electron/asar
 [Git executables]: https://github.com/desktop/dugite-native/releases/
 [dugite]: https://www.npmjs.com/package/dugite
