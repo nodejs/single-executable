@@ -11,7 +11,7 @@ Table of Contents
 - [Existing SEA Solutions](./docs/existing-solutions.md)
 - [Production Node.js CLIs](./docs/production-nodejs-clis.md)
 - Requirements
-  - [Virtual File System Requirements](./docs/virtual-file-system-requirements.md)
+  - [Virtual File System](./docs/virtual-file-system-requirements.md)
 
 Blog
 ----
