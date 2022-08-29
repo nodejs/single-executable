@@ -68,6 +68,14 @@ using `/a/b/sea/file.txt`. This approach is similar to how Electron's [ASAR][]
 works, i.e., if the application asar is placed in `/a/b/app.asar`, the
 embedded `file.txt` file would use `/a/b/app.asar/file.txt` as the path.
 
+## Globbing
+
+`fs.statSync(process.execPath).isDirectory()` will return `false` and
+`fs.statSync(process.execPath).isFile()` will return `true`. That way, if code
+within the single-executable does naive globbing using an off-the-shelf glob
+library, VFS file paths, which are considered internal to the single-executable,
+would not interfere with the actual file paths.
+
 ## Cross-platform tooling
 
 The tooling required for archiving / extracting files into / from the VFS must
