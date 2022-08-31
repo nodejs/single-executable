@@ -94,6 +94,14 @@ insensitive would have increased the complexity, worsened the runtime
 performance, increased the attack surface, for a use case that virtually no-one
 cares about. Hence, the paths in the VFS will be case sensitive.
 
+## Imports and Requires
+
+Should support:
+* static import
+* static require
+* dynamic import
+* dynamic require
+
 ## Interaction with Native Addons
 
 TODO: Still under discussion in https://github.com/nodejs/single-executable/discussions/29.
