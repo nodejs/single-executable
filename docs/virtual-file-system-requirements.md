@@ -102,6 +102,10 @@ Should support:
 * dynamic import
 * dynamic require
 
+## VFS path manipulation as strings and URL objects
+
+Should support both.
+
 ## Interaction with Native Addons
 
 TODO: Still under discussion in https://github.com/nodejs/single-executable/discussions/29.
