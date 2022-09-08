@@ -43,8 +43,8 @@ single-executable to be able to access nested file paths.
 ## No interference with valid paths in the file system
 
 If the bundled files in the VFS correspond to certain paths that already exist
-in the real file system, that will be very confusing, so it should use such
-paths that cannot be used by existing files.
+in the real file system, that will break certain use-cases, so it should use
+such paths that cannot be used by existing files.
 
 Pkg uses [`/snapshot`](https://github.com/vercel/pkg#snapshot-filesystem) as the
 prefix for all the embedded files. This is confusing if `/snapshot` is an
