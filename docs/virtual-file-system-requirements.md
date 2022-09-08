@@ -101,7 +101,15 @@ real file system and the VFS.
 
 ## VFS path manipulation as strings and URL objects
 
-Should support both.
+If someone proposes that the VFS exist at a `vfs-file://` prefix, then this
+might become an issue. `fs` APIs accept `URL` objects, but this means code in
+(transitive) dependencies which assumes all native paths are strings may fail
+when passed `URL` objects. Perhaps a (transitive) dependency uses
+`require.resolve()`.
+
+Using something like `vfs-file://` might be a potential solution for placing the
+VFS contents somewhere that has no interference with valid paths in the file
+system.
 
 ## Interaction with Native Addons
 
