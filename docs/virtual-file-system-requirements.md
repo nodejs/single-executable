@@ -94,13 +94,10 @@ insensitive would have increased the complexity, worsened the runtime
 performance, increased the attack surface, for a use case that virtually no-one
 cares about. Hence, the paths in the VFS will be case sensitive.
 
-## Imports and Requires
+## Dynamic imports and requires
 
-Should support:
-* static import
-* static require
-* dynamic import
-* dynamic require
+`require(require.resolve('./file.js'))` should work for files that are on the
+real file system and the VFS.
 
 ## VFS path manipulation as strings and URL objects
 
