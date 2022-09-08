@@ -76,6 +76,12 @@ within the single-executable does naive globbing using an off-the-shelf glob
 library, VFS file paths, which are considered internal to the single-executable,
 would not interfere with the actual file paths.
 
+## Accept file paths in the VFS as arguments
+
+If a single-executable formatter is run with an argument that is a path to a
+file inside the VFS, it should be able to use the `fs` APIs to read, format and
+print the formatted contents to `stdout`.
+
 ## Cross-platform tooling
 
 The tooling required for archiving / extracting files into / from the VFS must
