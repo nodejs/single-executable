@@ -61,9 +61,9 @@ and uses it like so:
   namespace?: string;
 ```
 
-It might be better to use the single executable path as the base path for the
-files in the VFS, i.e., if the executable has `/a/b/sea` as the path and the VFS
-contains a file named `file.txt`, it would be accessible by the application
+A possible solution is to use the single executable path as the base path for
+the files in the VFS, i.e., if the executable has `/a/b/sea` as the path and the
+VFS contains a file named `file.txt`, it would be accessible by the application
 using `/a/b/sea/file.txt`. This approach is similar to how Electron's [ASAR][]
 works, i.e., if the application asar is placed in `/a/b/app.asar`, the
 embedded `file.txt` file would use `/a/b/app.asar/file.txt` as the path.
