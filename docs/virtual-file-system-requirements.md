@@ -70,11 +70,10 @@ embedded `file.txt` file would use `/a/b/app.asar/file.txt` as the path.
 
 ## Globbing
 
-`fs.statSync(process.execPath).isDirectory()` will return `false` and
-`fs.statSync(process.execPath).isFile()` will return `true`. That way, if code
+`fs.statSync(process.execPath).isDirectory()` will return `true` and
+`fs.statSync(process.execPath).isFile()` will return `false`. That way, if code
 within the single-executable does naive globbing using an off-the-shelf glob
-library, VFS file paths, which are considered internal to the single-executable,
-would not interfere with the actual file paths.
+library, paths inside the VFS would also get picked up.
 
 ## Accept file paths in the VFS as arguments
 
