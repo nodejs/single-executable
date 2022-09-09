@@ -15,3 +15,8 @@ Blog
 ----
 
 - (2022/08/05) [An Overview of the Current State](./blog/2022-08-05-an-overview-of-the-current-state.md)
+
+Meeting Notes
+-------------
+
+- [2022-09-05](./meetings/2022-09-05.md)
