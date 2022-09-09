@@ -26,15 +26,6 @@ it is possible for the single-executable to be able to execute only executable
 files. Other than that, all the bundled files would be readable and none will be
 writable.
 
-## Optional data compression
-
-As an application grows, bundling all the source code, dependencies and static
-assets into a single file without compression would quickly reach the maximum
-segment / file (depending on the embedding approach) size limit imposed by the
-single executable file format / OS. A solution to this problem would be to
-minify the JS source files but that might not be enough for other kinds of
-files, so supporting data compression seems to be a better solution.
-
 ## Preserve file-hierarchy information
 
 A filesystem is incomplete without this because there's no way for the
@@ -147,6 +138,15 @@ We want this format to be consensual enough that third-party tools (VSCode,
 emacs, ...) won't object to build native integrations with it (for instance,
 Esbuild recently added zip support to integrate w/ Yarn's zip installs; it would
 have been a much harder sell if Yarn had used a custom-made format).
+
+## Optional data compression
+
+As an application grows, bundling all the source code, dependencies and static
+assets into a single file without compression would quickly reach the maximum
+segment / file (depending on the embedding approach) size limit imposed by the
+single executable file format / OS. A solution to this problem would be to
+minify the JS source files but that might not be enough for other kinds of
+files, so supporting data compression seems to be a better solution.
 
 [ASAR]: https://github.com/electron/asar
 [Git executables]: https://github.com/desktop/dugite-native/releases/
