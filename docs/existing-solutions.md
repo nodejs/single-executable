@@ -21,7 +21,7 @@ Virtual File System Implementations
 [ASAR format]: https://github.com/electron/asar
 [`@zcbenz`]: https://github.com/zcbenz
 [monkey patching of `fs` in Electron to read from an ASAR]: https://github.com/electron/electron/blob/06a00b74e817a61f20e2734d50d8eb7bc9b099f6/lib/asar/fs-wrapper.ts
-[ZipFS]: https://github.com/yarnpkg/berry/blob/master/packages/yarnpkg-fslib/sources/ZipFS.ts
+[ZipFS]: https://github.com/yarnpkg/berry/blob/master/packages/yarnpkg-libzip/sources/ZipFS.ts
 
 Miscellaneous Related Tooling
 -----------------------------
