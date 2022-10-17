@@ -13,6 +13,12 @@ Table of Contents
 - Requirements
   - [Virtual File System](./docs/virtual-file-system-requirements.md)
 
+Status
+-----
+
+- MVP that is capable of compiling a single JavaScript file into a single
+  executable application - https://github.com/nodejs/node/pull/45038
+
 Blog
 ----
 
