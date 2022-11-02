@@ -23,3 +23,4 @@ Meeting Notes
 
 - [2022-09-05](./meetings/2022-09-05.md)
 - [2022-10-01](./meetings/2022-10-01.md) (OpenJS Foundation Collaborator Summit: Dublin)
+- [2022-10-31](./meetings/2022-10-31.md)
