@@ -6,10 +6,11 @@ packaging Node.js applications as standalone executables.
 
 | Name       | Company      | Repository                              | Point of Contact |
 |------------|--------------|-----------------------------------------|------------------|
-| pkg        | Vercel       | https://github.com/vercel/pkg<br/>https://github.com/yao-pkg/pkg | @jesec<br>@robertsLando         |
+| pkg        | Vercel       | https://github.com/vercel/pkg (archived)<br/>https://github.com/yao-pkg/pkg | @jesec<br>@robertsLando         |
 | boxednode  | MongoDB      | https://github.com/mongodb-js/boxednode | @addaleax        |
 | nexe       | -            | https://github.com/nexe/nexe            | N/A              |
 | node-sea   | -            | https://github.com/arcanis/node-sea     | @arcanis         |
+| encloseJs | - | https://github.com/igorklopov/enclose (archived) | @igorklopov |
 
 Virtual File System Implementations
 -----------------------------------
