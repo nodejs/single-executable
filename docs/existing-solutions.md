@@ -4,12 +4,12 @@ Existing SEA Solutions
 This document aims to exhaustively list and categorize every known solution for
 packaging Node.js applications as standalone executables.
 
-| Name       | Company      | Repository                              | Point of Contact |
-|------------|--------------|-----------------------------------------|------------------|
-| pkg        | Vercel       | https://github.com/vercel/pkg           | @jesec           |
-| boxednode  | MongoDB      | https://github.com/mongodb-js/boxednode | @addaleax        |
-| nexe       | -            | https://github.com/nexe/nexe            | N/A              |
-| node-sea   | -            | https://github.com/arcanis/node-sea     | @arcanis         |
+| Name      | Company | Repository                                                      | Point of Contact |
+| --------- | ------- | --------------------------------------------------------------- | ---------------- |
+| pkg       | -       | [https://github.com/vercel/pkg](https://github.com/yao-pkg/pkg) | @robertsLando    |
+| boxednode | MongoDB | https://github.com/mongodb-js/boxednode                         | @addaleax        |
+| nexe      | -       | https://github.com/nexe/nexe                                    | N/A              |
+| node-sea  | -       | https://github.com/arcanis/node-sea                             | @arcanis         |
 
 Virtual File System Implementations
 -----------------------------------
